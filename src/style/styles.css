@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+}
+
+.list-container {
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-container {
+  width: 70%;
+}
+
+.detail-container {
+  width: 30%;
+  margin: 10px;
+}
+
+.detail-country {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    display: none;
+  }
+
+  .card-body {
+    max-width: 200px;
+  }
+
+  .detail-container {
+    display: none;
+  }
+
+  .list-container {
+    width: 100%;
+  }
+
+  .detail-country {
+    display: flex;
+  }
+
+  .flag-image {
+    width: 40%;
+  }
+  .info-country {
+    width: 50%;
+  }
+}
